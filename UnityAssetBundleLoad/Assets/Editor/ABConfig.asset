@@ -16,3 +16,5 @@ MonoBehaviour:
   fileDirectABNames:
   - ABName: Water
     Path: Assets/GameData/Shaders
+  - ABName: benghuai
+    Path: Assets/GameData/Shaders

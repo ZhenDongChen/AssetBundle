@@ -29,7 +29,7 @@ public class BuildEditor
         allFileDir.Clear();
         allFileAb.Clear();
         allPrefabDir.Clear();
-        ABConfig aBConfig = AssetDatabase.LoadAssetAtPath<ABConfig>(ABCONFIGPATH) ;
+        ABConfig aBConfig = AssetDatabase.LoadAssetAtPath<ABConfig>(ABCONFIGPATH);
 
         foreach (var fileDir in aBConfig.fileDirectABNames)
         {
@@ -63,7 +63,7 @@ public class BuildEditor
               
                 for (int depend_Index = 0; depend_Index < allDepend.Length; depend_Index++)
                 {
-                  //  Debug.Log(allDepend[depend_Index]);
+                    Debug.Log(allDepend[depend_Index]);
                     if (!ContainAllFileAB(allDepend[depend_Index]) && !allDepend[depend_Index].EndsWith(".cs"))
                     {
                         allFileAb.Add(allDepend[depend_Index]);
@@ -99,14 +99,14 @@ public class BuildEditor
 
         BuildAssetBuild();
 
-        BuildPipeline.BuildAssetBundles(Application.streamingAssetsPath, BuildAssetBundleOptions.ChunkBasedCompression, EditorUserBuildSettings.activeBuildTarget);
+        BuildPipeline.BuildAssetBundles(Application.streamingAssetsPath+ "/attack1", BuildAssetBundleOptions.ChunkBasedCompression, EditorUserBuildSettings.activeBuildTarget);
 
-        string[] oldABName = AssetDatabase.GetAllAssetBundleNames();
-        for (int ABName_index = 0; ABName_index < oldABName.Length; ABName_index++)
-        {
-            AssetDatabase.RemoveAssetBundleName(oldABName[ABName_index],true);
-            EditorUtility.DisplayProgressBar("清除AB包名字","名字："+oldABName[ABName_index],ABName_index*1.0f / oldABName.Length);
-        }
+        //string[] oldABName = AssetDatabase.GetAllAssetBundleNames();
+        //for (int ABName_index = 0; ABName_index < oldABName.Length; ABName_index++)
+        //{
+        //    AssetDatabase.RemoveAssetBundleName(oldABName[ABName_index],true);
+        //    EditorUtility.DisplayProgressBar("清除AB包名字","名字："+oldABName[ABName_index],ABName_index*1.0f / oldABName.Length);
+        //}
         EditorUtility.ClearProgressBar();
 
         //生成AB包配置表

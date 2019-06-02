@@ -15,7 +15,7 @@ public class LoadAssetBundle : MonoBehaviour
         //AssetBundle assetBundle = AssetBundle.LoadFromFile(Application.streamingAssetsPath+"/attack");
         //GameObject obj = GameObject.Instantiate(assetBundle.LoadAsset<GameObject>("attack"));
 
-        //LoadSync(LoadObject);
+        LoadSync(LoadObject);
 
         // XmlDesSerialize();
 
@@ -128,7 +128,7 @@ public class LoadAssetBundle : MonoBehaviour
 
     IEnumerator LoadAllAssetBundle(Action<GameObject> ab)
     {
-        AssetBundleCreateRequest assetBundle = AssetBundle.LoadFromFileAsync(Application.streamingAssetsPath + "/attack");
+        AssetBundleCreateRequest assetBundle = AssetBundle.LoadFromFileAsync(Application.streamingAssetsPath + "/attack1/attack");
         yield return assetBundle;
         if (ab != null)
         {

@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3794810224
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: attack
+      Dependencies:
+        Dependency_0: benghuai
+    Info_1:
+      Name: model/model_aluminumminelv01_ani 1
+      Dependencies:
+        Dependency_0: texture/t_dhz_aluminumminedm_01
+        Dependency_1: texture/t_dhz_aluminumminedm_02
+    Info_2:
+      Name: model/model_aluminumminelv02_ani 1
+      Dependencies:
+        Dependency_0: texture/t_dhz_aluminumminedm_01
+        Dependency_1: texture/t_dhz_aluminumminedm_02
+    Info_3:
+      Name: model/model_aluminumminelv03_ani 1
+      Dependencies:
+        Dependency_0: texture/t_dhz_aluminumminedm_01
+        Dependency_1: texture/t_dhz_aluminumminedm_02
+    Info_4:
+      Name: texture/t_dhz_aluminumminedm_01
+      Dependencies: {}
+    Info_5:
+      Name: texture/t_dhz_aluminumminedm_02
+      Dependencies: {}
+    Info_6:
+      Name: benghuai
+      Dependencies: {}

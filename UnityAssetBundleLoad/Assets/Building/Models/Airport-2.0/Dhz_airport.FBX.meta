@@ -1,0 +1,111 @@
+fileFormatVersion: 2
+guid: 076954c48db9a2042be36bc58a511b4b
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Dhz_airport_01
+    100002: Dhz_airport_fly
+    100004: Dhz_airport_radar
+    100006: //RootNode
+    100008: "\u3000\uE813\uE811"
+    100010: "\uE814\uE812"
+    400000: Dhz_airport_01
+    400002: Dhz_airport_fly
+    400004: Dhz_airport_radar
+    400006: //RootNode
+    400008: "\u3000\uE813\uE811"
+    400010: "\uE814\uE812"
+    2300000: Dhz_airport_01
+    2300002: Dhz_airport_fly
+    2300004: Dhz_airport_radar
+    3300000: Dhz_airport_01
+    3300002: Dhz_airport_fly
+    3300004: Dhz_airport_radar
+    4300000: Dhz_airport_01
+    4300002: Dhz_airport_radar
+    4300004: Dhz_airport_fly
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dhz_airport_01
+    second: {fileID: 2100000, guid: c4d02d00a08a37843bc3a7ae3f064325, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

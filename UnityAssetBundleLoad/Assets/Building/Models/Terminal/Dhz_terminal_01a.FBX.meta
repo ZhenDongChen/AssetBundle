@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 7cda5c19f9fbee04e89f03a582ef3560
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Dhz_militarywharf_a01
+    100002: Dhz_militarywharf_a02
+    100004: Dhz_militarywharf_a03
+    100006: Dhz_militarywharf_b
+    100008: Dhz_militarywharf_c
+    100010: //RootNode
+    100012: Dhz_terminal_01a01
+    100014: Dhz_terminal_01a02
+    100016: Dhz_terminal_01a03
+    100018: Dhz_terminal_01b
+    100020: Dhz_terminal_01c
+    100022: Dhz_terminal_01b1
+    100024: Dhz_terminal_01b2
+    100026: Dhz_terminal_01a
+    100028: Dhz_terminal_01f1
+    400000: Dhz_militarywharf_a01
+    400002: Dhz_militarywharf_a02
+    400004: Dhz_militarywharf_a03
+    400006: Dhz_militarywharf_b
+    400008: Dhz_militarywharf_c
+    400010: //RootNode
+    400012: Dhz_terminal_01a01
+    400014: Dhz_terminal_01a02
+    400016: Dhz_terminal_01a03
+    400018: Dhz_terminal_01b
+    400020: Dhz_terminal_01c
+    400022: Dhz_terminal_01b1
+    400024: Dhz_terminal_01b2
+    400026: Dhz_terminal_01a
+    400028: Dhz_terminal_01f1
+    2100000: Dhz_militarywharf_b
+    2300000: Dhz_militarywharf_a01
+    2300002: Dhz_militarywharf_a02
+    2300004: Dhz_militarywharf_a03
+    2300006: Dhz_militarywharf_b
+    2300008: Dhz_militarywharf_c
+    2300010: Dhz_terminal_01a01
+    2300012: Dhz_terminal_01a02
+    2300014: Dhz_terminal_01a03
+    2300016: Dhz_terminal_01b
+    2300018: Dhz_terminal_01c
+    2300020: Dhz_terminal_01b1
+    2300022: Dhz_terminal_01b2
+    2300024: Dhz_terminal_01f1
+    3300000: Dhz_militarywharf_a01
+    3300002: Dhz_militarywharf_a02
+    3300004: Dhz_militarywharf_a03
+    3300006: Dhz_militarywharf_b
+    3300008: Dhz_militarywharf_c
+    3300010: Dhz_terminal_01a01
+    3300012: Dhz_terminal_01a02
+    3300014: Dhz_terminal_01a03
+    3300016: Dhz_terminal_01b
+    3300018: Dhz_terminal_01c
+    3300020: Dhz_terminal_01b1
+    3300022: Dhz_terminal_01b2
+    3300024: Dhz_terminal_01f1
+    4300000: Dhz_militarywharf_a02
+    4300002: Dhz_militarywharf_a03
+    4300004: Dhz_militarywharf_a01
+    4300006: Dhz_militarywharf_b
+    4300008: Dhz_militarywharf_c
+    4300010: Dhz_terminal_01a02
+    4300012: Dhz_terminal_01a03
+    4300014: Dhz_terminal_01a01
+    4300016: Dhz_terminal_01b
+    4300018: Dhz_terminal_01c
+    4300020: Dhz_terminal_01b1
+    4300022: Dhz_terminal_01b2
+    4300024: Dhz_terminal_01f1
+    7400000: Take 001
+    11100000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1200
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
